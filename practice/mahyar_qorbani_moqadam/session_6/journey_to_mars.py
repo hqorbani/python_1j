@@ -7,7 +7,8 @@ while countor <= 3:
         countor+=1
         name =input("pleas enter new name :")
         names.append (name)
+        # print(names)
         for item in names:
-            print(names)
+            print(item)
     else :
         print("you can not enter")

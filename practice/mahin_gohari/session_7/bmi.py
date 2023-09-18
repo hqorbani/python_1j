@@ -7,15 +7,18 @@ elif 13 >= age:
     print("your a child.")
 elif 19 <= age:
     print("your a old person.")
-weight = int(input("please enter your wight:"))
-if weight <= 18.5: 
+weight = int(input("how much do you weight? (kg)"))
+height = int(input("what is your height? (cm)"))
+height = height / 100
+bmi = (weight / height ** 2)
+if bmi <= 18.5:
     print("you have underweight.")
-elif weight >= 18.5 <= 24.9:
+elif 18.5 <= bmi <= 24.9:
     print("you are normal.")
-elif weight >= 25 <= 29.9:
+elif 25 <= bmi <= 29.9:
     print("you have overweight.")
-elif weight >= 30 <= 34.9:
+elif 30 <= bmi <= 34.9:
     print("you have excessive weight gain.")
-elif weight <= 35:
+elif 35 <= bmi:
     print("you have excessive obesity.")
     print("finished.")

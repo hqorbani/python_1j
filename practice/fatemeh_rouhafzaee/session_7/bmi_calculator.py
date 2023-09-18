@@ -1,6 +1,6 @@
-height = float(input("please enter your height (kg) : "))
-Weight = float(input("please enter your Weight (m) : "))
-bmi = round(height / Weight ** 2 , 1)
+weight = float(input("please enter your weight (kg) : "))
+height = float(input("please enter your height (m) : "))
+bmi = round(weight / height ** 2 , 1)
 if bmi < 18.5 :
     print ("your BMI index is :" , bmi ,  "Underweight")
 elif  18.5 < bmi < 24.9 :

@@ -1,0 +1,10 @@
+numbers = [1,2,3,21,51,68,59,53,654,21,57]
+print(numbers [0 : 3])
+print(numbers [1 : 4])
+print(numbers [2 : 5])
+print(numbers [3 : 6])
+print(numbers [4 : 7])
+print(numbers [5 : 8])
+print(numbers [6 : 9])
+print(numbers [7 : 10])
+print(numbers [8 : 11])

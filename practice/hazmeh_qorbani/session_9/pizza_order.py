@@ -4,13 +4,6 @@ pizzas = {
     "meat":12,
     "margarita":7
     }
-chashni={
-    "cheese":1,
-    "pepper":2
-}
-off_codes={
-    "paeez":2
-}
 agree = "yes"
 while agree == 'yes':
     print("please select your order:")

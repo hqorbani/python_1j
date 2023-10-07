@@ -32,7 +32,7 @@ win = 0
 counter = 100
 while counter > 0:
     user_input=int(input("enter your guess: "))
-    if (user_input==r_number):
+    if (user_input == r_number):
         win = 1
         break
     elif user_input > r_number :
